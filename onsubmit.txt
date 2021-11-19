@@ -1,0 +1,38 @@
+import React, { useState } from 'react'
+function App() {
+  const [data, setData] = useState({
+    username: 'hari',
+    password: '123456',
+
+  })
+  const { username, password } = data;
+  const onchange = e => {
+    setData({ ...data, [e.target.name]: [e.target.value] })
+  }
+  const submitHandler = e => {
+    e.preventDefault();
+    console.log(data);
+
+
+  }
+
+
+  return (
+    <div>
+      <center>
+        <form onSubmit={submitHandler}>
+          <input type="text" placeholder="username" name="username"
+            onChange={onchange} value="username" /> <br />
+
+          < input type="password" name="password" value="password"
+            onChange={onchange} placeholder="password" /> <br />
+          <input type="submit" name="submit" />
+
+
+        </form>
+
+      </center>
+    </div>
+  )
+}
+export default App;
