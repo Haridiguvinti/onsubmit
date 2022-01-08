@@ -1,0 +1,59 @@
+/* ------------- SEARCH CONTAINER --------------*/
+
+.search-container {
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 22px;
+  height: 44px;
+  background-image: linear-gradient(to top, #accbee 0%, #a2c4e8 100%);
+  /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
+}
+.location-search-icon {
+  display: inline-block;
+  float: left;
+  height: 28px;
+  width: 28px;
+  margin-right: 8px;
+  margin-left: 2px;
+}
+.city-input {
+  display: inline-block;
+  float: left;
+  padding: 0;
+  padding-left: 10px;
+  margin-top: 2px;
+  line-height: 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+}
+.search-button,
+.my-location-button {
+  display: inline-block;
+  float: left;
+  line-height: 15px;
+  font-size: 15px;
+  padding: 4px 12px;
+  background-color: #e7f0fd;
+  border: none;
+  border-radius: 13px;
+  transition: all 150ms ease-in-out;
+  color: black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  margin: 2px 0 0 10px;
+}
+.my-location-button {
+  height: 24px;
+  width: 24px;
+  padding: 0;
+  border-radius: 50%;
+}
+.my-location-button > img {
+  width: 15px;
+  margin-top: 2px;
+}
+.search-button:hover,
+.my-location-button:hover {
+  box-shadow: none;
+}

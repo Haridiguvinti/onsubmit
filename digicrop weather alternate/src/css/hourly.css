@@ -1,0 +1,19 @@
+.local-time-line {
+  font-size: 18px;
+}
+.local-time {
+  padding: 1px 7px;
+  background-color: #e7f0fda6;
+  border-radius: 5px;
+}
+.hourly-block {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 8px 0;
+}
+/* 
+.hourly-image {
+  width: 40px;
+  height: 40px;
+} */
+

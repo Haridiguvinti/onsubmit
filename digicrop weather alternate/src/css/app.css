@@ -1,0 +1,118 @@
+body,
+body * {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+.app {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+h1 {
+  text-align: center;
+  margin: 8px;
+  font-size: 36px;
+  /* position: relative; */
+}
+.react-icon {
+  line-height: 36px;
+  position: relative;
+  top: 5px;
+}
+
+/* ------------- MAIN APP BODY --------------*/
+
+.main-body-container {
+  border-radius: 18px;
+  background-image: linear-gradient(to top, #e7f0fd 0%, #accbee 100%);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
+}
+
+/* ------------- TOP CONTAINER --------------*/
+
+
+/* ------------- COLUMN 1 --------------*/
+.column-1 {
+  padding: 15px 0 0 30px;
+}
+.city-name {
+  display: inline-block;
+  width: 100%;
+  font-size: 50px;
+}
+.today-description {
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+}
+.c-link,
+.f-link,
+.c-f-detail {
+  position: relative;
+  top: -60px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.c-link,
+.f-link {
+  color: grey;
+}
+.active {
+  color: black;
+}
+.not-active {
+  color: grey;
+  cursor: pointer;
+}
+.not-active:hover {
+  color: black;
+}
+
+/* ------------- COLUMN 2 --------------*/
+div.column-2 canvas {
+  margin-left: calc((100% - 100px) / 2);
+} 
+.weather-details {
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 14px;
+}
+.weather-details
+.feels-like,
+#wind,
+#humidity {
+  font-size: 14px;
+}
+/* ------------- COLUMN 3 --------------*/
+
+.last-updated {
+  /* font-size: 14px; */
+  margin: 0;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+/* ------------- BOTTOM CONTAINER --------------*/
+
+.bottom-container {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* ------------- FOOTER --------------*/
+
+.code-by {
+  margin-top: 10px;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  line-height: 14px;
+}
+.github-icon {
+  width: 18px;
+  position: relative;
+  top: 3px;
+}
