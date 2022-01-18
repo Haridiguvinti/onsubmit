@@ -1,0 +1,8 @@
+.app {
+  max-width: 400px;
+  margin: 100px auto;
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 5px;
+  background-color: #634cff;
+  box-shadow: 0 0 40px rgba(109, 103, 103, 0.637);
+}

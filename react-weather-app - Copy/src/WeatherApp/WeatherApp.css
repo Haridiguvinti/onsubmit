@@ -1,0 +1,110 @@
+.weather-app .search-bar {
+  width: 90%;
+  margin: 20px;
+  padding-top: 10px;
+  border: none;
+}
+
+.weather-app .btn {
+  background-color: white;
+  color: #634cff;
+  border: none;
+  transition: all 0.4s ease-in-out;
+}
+
+.weather-app .current-btn,
+.search-btn {
+  margin-left: 10px !important;
+}
+
+.weather-app .btn:hover {
+  background: #634cff;
+  color: white;
+  border: 1px solid white;
+}
+
+.weather-app .current-location {
+  font-size: 8px;
+}
+
+.weather-app h1 {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+.weather-app .Location {
+  text-align: center;
+  color: white;
+}
+
+.weather-app h2 {
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+}
+
+.weather-app i {
+  font-size: 18px;
+}
+
+.weather-app h3 {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.weather-app img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.weather-app .description {
+  margin: 10px 0 20px 0;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+}
+
+.weather-app {
+  color: white;
+}
+
+.weather-app h4 {
+  display: inline-block;
+  font-size: 60px;
+  padding-left: 28px;
+}
+
+.weather-app .current-temps p {
+  text-align: center;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.weather-app .max-temp {
+  position: relative;
+  right: 15px;
+}
+
+.weather-app hr {
+  color: #1b115f;
+  height: 2px;
+  width: 80%;
+}
+
+.weather-app .details-info p {
+  margin: 0;
+}
+
+.weather-app h5 {
+  font-size: 20px;
+}
+
+.weather-app .Details {
+  padding-left: 10px;
+}

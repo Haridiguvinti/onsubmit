@@ -1,0 +1,17 @@
+.daily-forecast {
+  margin: 0 auto;
+  color: black;
+}
+
+.daily-forecast img {
+  width: 50px;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+}
+
+.daily-forecast .temp {
+  position: relative;
+  right: 3px;
+  font-size: 12px;
+}

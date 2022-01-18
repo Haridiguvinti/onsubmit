@@ -1,0 +1,12 @@
+.footer p a {
+  color: #634cff;
+  text-decoration: none;
+  transition: all 2ms ease-in-out;
+}
+
+.footer p a:hover {
+  text-decoration: underline;
+}
+.footer small p {
+  text-align: center;
+}
